@@ -5,4 +5,5 @@ One of biggest questions in the energy transition right now is how much it is go
 The second part of this project focuses on understanding whether there is a relationship between VRE penetration and electricity prices, and how this relationship may depend on factors such as region and sector. The ML model may link VRE penetration to integration costs, but it is also important to check (1) whether those costs are showing up in retail electricity prices and (2) whether information on retail electricity prices can be used to infer information about wholesale electricity prices.
 
 https://public.tableau.com/app/profile/richard.o.keefe3457/viz/Retail_vs_Wholesale_Prices_17764765198920/Dashboard1
+
 https://public.tableau.com/app/profile/richard.o.keefe3457/viz/Retail_Electricity_Rates_17764762581990/Dashboard1
