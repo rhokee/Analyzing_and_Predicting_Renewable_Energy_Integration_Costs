@@ -1,4 +1,4 @@
-## Problems and Solutions
+# Problems and Solutions
 
 One of biggest questions in the energy transition right now is how much it is going to cost to integrate renewable energy into grid systems. I tackle this question by building and comparing several ML models that predict the cost of renewable energy grid integration as a function of VRE (Variable Renewable Energy) %. 
 
@@ -6,7 +6,7 @@ I then focus on gaining a better and more holistic understanding of what may aff
 
 To answer (1), (2), and (3), I first gathered and manipulated the data I would need. To obtain a nice, clean retail electricity price dataset to work with (retail_prices.csv), I cleaned and manipulated "Average_retail_price_of_electricity.xlsx". To obtain a nice, clean wholesale electricity price dataset to work with, I downloaded wholesale electricity price data for the years 2001-2025 from https://www.eia.gov/electricity/wholesale/ and then created "excel_cleaner.py" to automate the process of cleaning all these files and combining them into a single file. To obtain a nice, clean dataset that listed the associated wholesale prices for different retail prices, I combined "retail_prices.csv" and the "wholesale_prices.csv" file that gets created as a result of running "excel_cleaner.py".
 
-## Results
+# Results
 
 I developed Dashboard 1 (https://public.tableau.com/app/profile/richard.o.keefe3457/viz/Retail_Electricity_Rates_17764762581990/Dashboard1) to answer (1), Dashboard 2 (https://public.tableau.com/app/profile/richard.o.keefe3457/viz/Retail_vs_Wholesale_Prices_17764765198920/Dashboard1) to answer (2), and "correlation.py" to answer (3). 
 
@@ -22,6 +22,6 @@ The differences between retail and wholesale prices have, on average, been climb
 
 It appears that retail rates are uncorrelated with wholesale electricity prices since as per "correlation.py", the R2 between retail and wholesale prices was only 0.09.
 
-## How to Run the ML Models I Developed
+# How to Run the ML Models I Developed
 
 The file "integration_cost_model.ipynb" contains the ML models as well as data cleaning code, exploratory data analysis, and a declaration of which model is the most optimal. To run "integration_cost_model.ipynb", you will need to download all the csv files from the "integration_cost_model_data" folder. Note that "Nature_DATA_analysis.xlsx", though, is not needed to run "integration_cost_model.ipynb"; this is the Excel file I used to create the csv files.
