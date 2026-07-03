@@ -10,15 +10,15 @@ To answer (1), (2), and (3), I first gathered and manipulated the data I would n
 
 I developed Dashboard 1 (https://public.tableau.com/app/profile/richard.o.keefe3457/viz/Retail_Electricity_Rates_17764762581990/Dashboard1) to answer (1), Dashboard 2 (https://public.tableau.com/app/profile/richard.o.keefe3457/viz/Retail_vs_Wholesale_Prices_17764765198920/Dashboard1) to answer (2), and "correlation.py" to answer (3). 
 
-# Main Findings From Dashboard 1
+### Main Findings From Dashboard 1
 
 Retail prices in deregulated markets have, on average, consistently been higher than retail rates in vertically integrated markets over the years, and this trend stays consistent regardless of sector. Also as shown in Dashboard 1, retail prices across both markets and across all sectors have, on average, steadily been climbing over the years. I didn't include the transportation sector because a large portion of the data on this sector included missing values and values of $0. I suspected that the values of $0 were data recording errors. 
 
-# Main Findings From Dashboard 2
+### Main Findings From Dashboard 2
 
 The differences between retail and wholesale prices have, on average, been climbing over the years for the regions PJM, ISONE, and especially CAISO, but have been staying relatively stable for the regions MISO and ERCOT. Worth noting though is that MISO and ERCOT also have less data. 
 
-# Main Findings From Dashboard 3
+### Main Findings From Dashboard 3
 
 It appears that retail rates are uncorrelated with wholesale electricity prices since as per "correlation.py", the R2 between retail and wholesale prices was only 0.09.
 
